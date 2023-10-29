@@ -1,0 +1,45 @@
+/* dropdown.css */
+.hover-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .trigger {
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: transparent;}
+  
+  .hover-dropdown:hover .dropdown {
+    display: block;
+  }
+  
+  ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px;
+  }
+  
+  /* Style the anchor tags inside the list items */
+  li a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Text color for links */
+    display: block; /* Ensure anchor tags expand to full width of the list item */
+    padding: 5px 10px; /* Add padding to anchor tags */
+  }
+  
+  /* Style the anchor tags on hover */
+  li a:hover {
+    background-color: #f0f0f0;
+    color: #000; /* Text color on hover */
+  }
+  

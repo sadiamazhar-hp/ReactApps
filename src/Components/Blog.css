@@ -1,0 +1,157 @@
+
+  .div {
+    border: 1px none;
+    height: 200px;
+    position: relative;
+    width: 500px;
+    margin: 20px auto;
+  }
+  
+
+  .blog-component {
+    background-color: #ffffff;
+    border-radius: 60px;
+    box-shadow: 3px 4px 4px 5px rgb(22, 22, 22,0.5);
+    height: 110%;
+    left: 0;
+    width: 109%;
+    
+  }
+  .overlap-group {
+    height: 28%;
+    left: 300px;
+    position: absolute;
+    top: 10px;
+    width: 21%;
+  }
+  
+  .readmore-button {
+    all: unset;
+    border-radius: 80px;
+    box-sizing: border-box;
+    height: 34px;
+    left: 95px;
+    position: absolute;
+    top: 170px;
+    width: 120px;
+  }
+  
+  .READ-MORE-wrapper {
+    background-image: linear-gradient(167deg, rgba(165, 56, 156, 0.616), rgb(53, 17, 41) 65.71%);
+    border-radius: 80px;
+    height: 30px;
+    position: relative;
+    width: 100px;
+  }
+  
+  .READ-MORE {
+    color: #ffffff;
+    font-family: "Maiandra GD-Regular", Helvetica;
+    font-size: 0px;
+    font-weight: 400;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-shadow: 3px 4px 4px #00000082;
+    top: 7px;
+    white-space: nowrap;
+    width: 83px;
+  }
+  
+  .text-wrapper {
+    color: #ffffff;
+    font-family: "Maiandra GD-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .blog-content {
+    height: 222px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 236px;
+  }
+  
+  .element-most-beautiful {
+    color: #000000;
+    font-family: "Maiandra GD-Regular", Helvetica;
+    font-size: 0px;
+    font-weight: 200;
+    right: 95px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0px;
+    width: 230px;
+  }
+  
+  .span {
+    color: #000000;
+    font-family: "Maiandra GD-Regular", Helvetica;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .lorem-ipsum-dolor {
+    color: #000000;
+    font-family: "Maiandra GD-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    left: -90px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 55px;
+    width: 330px;
+  }
+  
+  .text-wrapper-2 {
+    color: #000000;
+    font-family: "Maiandra GD-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .element-AUGUST {
+    color: #000000;
+    font-family: "Maiandra GD-Regular", Helvetica;
+    font-size: 11px;
+    right: 175px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 170px;
+    white-space: nowrap;
+    width: 152px;
+  }
+  
+  .text-wrapper-3 {
+    color: #000000;
+    font-family: "Maiandra GD-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: normal;
+  }
+  
+  .rectangle {
+    height: 200px;
+    left: 10px;
+    margin: 0 auto;
+    object-fit: cover;
+    position: absolute;
+    top: 8px;
+    border-radius: 60px;
+    width: 190px;
+  }
+  
+  
+  

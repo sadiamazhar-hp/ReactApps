@@ -1,0 +1,134 @@
+.HomeMain{
+    margin: 0 auto;
+    width: 700px;
+}
+.Heading{
+    text-align: center;
+    font-family: "Lobster variant0", Tofu;
+}
+.Para{
+    text-align: center;
+
+}
+.DailyDive{
+    transition-property: opacity, transform;
+    font-size: 65px;
+    font-weight: 800;
+    color: rgb(65, 7, 60);
+    text-shadow: 5px 3px 3px  #55375175;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.arrow{
+    width: 40px;
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+    height: 40px;
+}
+.Nav-Content{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 500px;
+}
+
+.Nav-Content a:last-child{
+    position: relative;
+    left: 30%;
+    top: -25px;
+}
+.nav-item{
+    margin-top: 80px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px #86848691;
+    font-family: SQMarket-Medium,SQMarket,"Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.logo{
+    position: relative;
+    right: 50%;
+    width: 0px;
+    height: 120px;
+    border: none;
+    box-shadow: none;
+}
+.video{
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 30px 30px 0px 0px;
+}
+.blogs {
+    display: flex;
+    flex-direction: column; /* Display rows vertically */
+  }
+  
+  .blog-row {
+    display: flex;
+    justify-content: space-between; /* Space between components */
+    margin-bottom: 10px; /* Adjust the margin between rows as needed */
+  }
+.RecentBlogsheading{
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: 'Gambetta', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: rgb(83, 50, 94);
+    outline: none;
+    text-align: center;
+    text-shadow: 4px 3px 3px #794a7280;
+}
+.RecentBlogsheading:hover{
+    font-variation-settings: "wght" 582; 
+    letter-spacing: 1px;
+}
+
+.large {
+	font-size: 6rem;
+}
+
+.small {
+	font-size: 3rem;
+}
+
+.rise {
+	text-shadow: -0.01em -0.01em 0.01em #000;
+	animation: rise 2s ease-in-out 0.5s forwards;
+}
+
+@keyframes rise {
+	to {
+		text-shadow: 0em 0.01em #ff5, 0em 0.02em #ff5, 0em 0.02em 0.03em #ff5,
+			-0.01em 0.01em #333, -0.02em 0.02em #333, -0.03em 0.03em #333,
+			-0.04em 0.04em #333, -0.01em -0.01em 0.03em #000, -0.02em -0.02em 0.03em #000,
+			-0.03em -0.03em 0.03em #000;
+		transform: translateY(-0.025em) translateX(0.04em);
+	}
+}
+
+.outline {
+	background-clip: text;
+	color: #ffdd40;
+	animation: outline 1s ease-in-out 1.5s forwards;
+}
+
+@keyframes outline {
+	from {
+		text-shadow: 0em -7em 10em #fff;
+	}
+	to {
+		text-shadow: 0 0.02em #fff, 0.02em 0 #fff, -0.02em 0 #fff, 0 -0.02em #fff;
+	}
+}
+.MainBody{
+    display: flex;
+    flex-wrap: wrap;
+}
+.MainBody > *{
+    flex-grow: 1;
+    flex-basis: 200;
+}
